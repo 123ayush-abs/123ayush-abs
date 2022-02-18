@@ -1,9 +1,14 @@
-- 👋 Hi, I’m ayush
-- 👀 Aspiring android developer
-- 💞️Any collaboration will be welcomed
-- 📫 How to reach me :- sarafayush130@gmail.com
+# *WeatherApp* 🌺
+Displays current weather using API of selected City.<br>
+☁️ **Uses FetchAPI to access data in JSON format from OpenWeatherMap.** <br>
+<br>
+Have a look :point_right: [HERE](https://prakhart111.github.io/WeatherApp/)
 
-<!---
-123ayush-abs/123ayush-abs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+- Enter the name of the city in the search box
+- Then Press Enter
+- You will have weather information on your screen 😄
+<img src="screen_shot.png">
+<br><br>
+
+>Background Image rights are reserved to the repective owner

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Readex+Pro:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif
+}
+body{
+    background-image: url('bg.jpg');
+    font-family: 'Readex Pro', sans-serif;
+    background-size: cover;
+    background-position: top center;
+}
+.temp{
+    font-family: 'Oswald', sans-serif;
+    font-size: unset;
+    font-size:60px;
+    padding:5px;
+    margin-top: 5px;
+    text-shadow: rgba(0, 0, 0, 0.561) 2px 2px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient( to bottom,rgba(255, 200, 99, 0.15) , rgba(0,0,0,0.5));
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:40px;
+}
+header input{
+    width:100%;
+    max-width: 350px;
+    padding:10px;
+    border:none;
+    border-radius: 20px;
+    outline:none;
+    background-color: rgba(255,255,255,0.5);
+    color:rgba(20,20,20,0.9);
+    border-bottom:solid rgb(121, 0, 121);
+    transition: ease-in 0.2s;
+}
+header input:focus{
+    background-color: rgba(255,255,255,0.9);
+}
+main{
+    flex: 1 1 100%;
+     padding: 200px 30px 50px; 
+    position: relative;
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color:wheat;
+}
+.current{
+    font-size:unset;
+    margin:10px;
+    font-size:20px;
+    padding:5px;
+}
+.city{
+    font-size:unset;
+    margin:10px;
+    font-size:30px;
+}
+.hi-lo{
+    padding-top:5px;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color:wheat;
+    padding:5px;
+    margin-top:20px;
+    border-top: 1px solid;
+    font-family: unset;
+    font-family: 'Oswald', sans-serif;
+}
+footer div{
+    margin:2px;
+}
+a{
+    font-style: unset;
+    color:rgb(53, 184, 170);
+    text-decoration: none;
+}
